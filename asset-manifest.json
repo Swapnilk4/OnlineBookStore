@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/OnlineBookStore/static/css/main.139d90dc.chunk.css",
+    "main.js": "/OnlineBookStore/static/js/main.70708104.chunk.js",
+    "main.js.map": "/OnlineBookStore/static/js/main.70708104.chunk.js.map",
+    "runtime-main.js": "/OnlineBookStore/static/js/runtime-main.bd2ece6d.js",
+    "runtime-main.js.map": "/OnlineBookStore/static/js/runtime-main.bd2ece6d.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/OnlineBookStore/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.85b00997.chunk.js": "/OnlineBookStore/static/js/2.85b00997.chunk.js",
+    "static/js/2.85b00997.chunk.js.map": "/OnlineBookStore/static/js/2.85b00997.chunk.js.map",
+    "static/js/3.867bbeaa.chunk.js": "/OnlineBookStore/static/js/3.867bbeaa.chunk.js",
+    "static/js/3.867bbeaa.chunk.js.map": "/OnlineBookStore/static/js/3.867bbeaa.chunk.js.map",
+    "index.html": "/OnlineBookStore/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/OnlineBookStore/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.139d90dc.chunk.css.map": "/OnlineBookStore/static/css/main.139d90dc.chunk.css.map",
+    "static/js/2.85b00997.chunk.js.LICENSE.txt": "/OnlineBookStore/static/js/2.85b00997.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd2ece6d.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.85b00997.chunk.js",
+    "static/css/main.139d90dc.chunk.css",
+    "static/js/main.70708104.chunk.js"
+  ]
+}
