@@ -18,11 +18,9 @@ class Header extends Component {
         return (
          
                 <Navbar style={mystyle}  expand="lg">
-                    <Container>
                     <NavbarBrand>
                        Online Book Store
                     </NavbarBrand>
-                    </Container>
                 </Navbar>
            
         );

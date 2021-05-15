@@ -66,6 +66,9 @@
   color: inherit;
   text-align: center;
 }
+.navbar-brand {
+  color: white;
+}
 
 @keyframes App-logo-spin {
   from {
