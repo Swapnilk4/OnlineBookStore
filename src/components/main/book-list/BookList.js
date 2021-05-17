@@ -25,10 +25,10 @@ class BookList extends Component {
     };
 
 
-  incrementCount = (index) => {
+    decrementCount = (index) => {
     let books = [...this.state.books];
     let item = {...books[index]};
-    item.selectedCount += 1;
+    item.selectedCount = item.selectedCount ? item.selectedCount - 1 :item.selectedCount;
     books[index] = item;
     this.setState({books});
  };

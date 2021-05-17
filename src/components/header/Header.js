@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 // reactstrap components
 import {
     NavbarBrand,
-    Navbar,
-    Container
+    Navbar
   } from "reactstrap";
 
 class Header extends Component {
@@ -16,13 +15,11 @@ class Header extends Component {
             textAlign:"center"
           };
         return (
-         
                 <Navbar style={mystyle}  expand="lg">
                     <NavbarBrand>
                        Online Book Store
                     </NavbarBrand>
                 </Navbar>
-           
         );
     }
 }
