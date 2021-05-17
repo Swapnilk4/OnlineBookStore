@@ -1,36 +1,34 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card';
-import books from '../../../books.json';
-import {  Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class BookList extends Component {
 
     constructor(props) {
         super(props)
         this.state = {
-            books: books
+            books: this.props.books
         };
     }
 
     incrementCount = (index) => {
-         let books = [...this.state.books];
-         let item = {...books[index]};
+         let bookList = [...this.state.books];
+         let item = {...bookList[index]};
          item.selectedCount += 1;
-         books[index] = item;
-         this.setState({books});
+         bookList[index] = item;
+         this.setState({books:bookList});
       };
 
     sendBooks = () => {
         this.props.sendData(this.state.books.filter(book=> book.selectedCount > 0));
     };
 
-
     decrementCount = (index) => {
-    let books = [...this.state.books];
-    let item = {...books[index]};
+    let bookList = [...this.state.books];
+    let item = {...bookList[index]};
     item.selectedCount = item.selectedCount ? item.selectedCount - 1 :item.selectedCount;
-    books[index] = item;
-    this.setState({books});
+    bookList[index] = item;
+    this.setState({books:bookList});
  };
     render() {
         const caption ={
@@ -43,12 +41,7 @@ class BookList extends Component {
         }
 
         const bookStyle = {
-            //display:'inline-block',
-            //border: '1px solid lightgray',
             borderRadius: '5px',
-            //margin: '10px',
-            //width: '290px !important',
-            //height: '100px',
             padding:'8px'
         }
 

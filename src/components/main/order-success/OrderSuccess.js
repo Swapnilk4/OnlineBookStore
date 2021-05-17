@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Alert from 'react-bootstrap/Alert';
 
 
-class OrderSuccess extends Component {
-    render() {
-        return (
-            <div>
-              <Alert variant="success">
-                    <Alert.Heading>Thank You !!!!</Alert.Heading>
-                    <p>
-                     Your order has been placed successfully !!! 
-                    </p>
-                   
-                </Alert>
-            </div>
-        );
-    }
+function OrderSuccess(props) {
+  
+    let state = props.selectedBooksForOrder;
+    console.log('state', state);
+    return (
+        <div>
+            <Alert variant="success"  className="col-md-4">
+                <Alert.Heading>Thank You !!!!</Alert.Heading>
+                <p>
+                    Your order has been placed successfully !!! 
+                </p>
+            </Alert>
+        </div>
+    );
 }
 
 export default OrderSuccess;
